@@ -25,8 +25,7 @@ ditampilkan melalui lcd 16x2 (12c) dengan beberapa grafik untuk memberikan info 
 Komponen yang Digunakan:
 - Arduino Uno: Bertindak sebagai mikrokontroler untuk membaca data sensor.
 
-- Sensor DHT22: Mengukur suhu dan kelembaban dengan output dalam satuan °C
-dan
+- Sensor DHT22: Mengukur suhu dan kelembaban dengan output dalam satuan °C.
 
 - LCD 16x2 (12c): Menampilkan Data hasil pengukuran suhu dan kelembaban secara real-time.
 
