@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "author": "M Zaidan Fathan",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -9, "left": -115.8, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -166.4,
+      "left": -128.8,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -18.9, "left": 215.4, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 147.95,
+      "left": 192,
+      "attrs": { "value": "10000" }
+    }
+  ],
+  "connections": [
+    [ "lcd1:GND", "uno:GND.2", "black", [ "h-76.8", "v374.4", "h259.2", "v-9.6" ] ],
+    [ "lcd1:VCC", "uno:5V", "red", [ "h-57.6", "v345.7", "h230.4", "v-9.6" ] ],
+    [ "lcd1:SDA", "uno:A4", "green", [ "h-28.8", "v317", "h288" ] ],
+    [ "lcd1:SCL", "uno:A5", "yellow", [ "h-19.2", "v365.1", "h297.6" ] ],
+    [ "dht1:VCC", "uno:5V", "blue", [ "v134.4", "h-9.6" ] ],
+    [ "dht1:SDA", "uno:2", "green", [ "v19.2", "h-57.5", "v-163.2", "h-61.7" ] ],
+    [ "dht1:GND", "uno:GND.3", "black", [ "v144", "h-182.4", "v-57.5" ] ],
+    [ "r1:2", "dht1:SDA", "magenta", [ "h-1.2", "v-28.8", "h-9.7" ] ],
+    [ "dht1:VCC", "r1:1", "magenta", [ "h-38.4", "v57.6" ] ]
+  ],
+  "dependencies": {}
+}
