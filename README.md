@@ -50,7 +50,4 @@ Youtube: https://youtu.be/_GpN5PTVkxg
 
 Wokwi: https://wokwi.com/projects/429452113997929473
 
-Note:
-youtube minta verifikasi saat memasukkan link, dan butuh 24 jam, atau memakai driver license (US) atau passport.
-Judul Full
-Proyek Mini Sistem Mikrokontroler | Kelompok 14 | Termometer Digital Dengan LCD | Universitas Teknologi Bandung (karakter, sedang max nya 100).
+Github :
