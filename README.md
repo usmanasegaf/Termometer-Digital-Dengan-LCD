@@ -20,15 +20,17 @@ Penjelasan Proyek:
 
 Proyek ini bertujuan untuk memantau suhu dan kelembaban lingkungan menggunakan
 sensor DHT22 yang terhubung ke mikrokontroler Arduino Uno. Data yang diperoleh
-ditampilkan melalui lcd 16x2 (12c) dengan beberapa grafik untuk memberikan info lebih jelas
+ditampilkan melalui lcd 16x2 (12c) dengan beberapa grafik untuk memberikan info lebih jelas. Selain itu, proyek ini juga bertujuan memberikan solusi praktis dalam memantau kondisi lingkungan secara otomatis dan menjadi sarana pembelajaran dalam bidang elektronika serta pemrograman mikrokontroler
 
 Komponen yang Digunakan:
 - Arduino Uno: Bertindak sebagai mikrokontroler untuk membaca data sensor.
 
 - Sensor DHT22: Mengukur suhu dan kelembaban dengan output dalam satuan °C
-dan .
+dan
 
-- LCD 16x2 (12c): Menampilkan Data
+- LCD 16x2 (12c): Menampilkan Data hasil pengukuran suhu dan kelembaban secara real-time.
+
+- Resistor 10k: Digunakan untuk menjaga kestabilan dan mengatur sinyal dari sensor DHT22 agar pembacaan data lebih akurat.
 
 Pembagian Tugas:
 
